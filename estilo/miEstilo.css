@@ -1,0 +1,130 @@
+/**{
+	box-sizing:border-box;
+}*/
+html{
+			border:6px black solid;	
+}
+body{
+	background-image:url("../img/dragones.png");
+	background-repeat:no-repeat;
+	/*background-attachment:fixed;*/
+    background-color:#F9F1CF;
+	/*min.height=100vh;  Para que ocupe el 100% de la pantalla*/
+			border:6px red solid;
+}
+#franja{
+   width:100%;
+   position:absolute;
+   top:0;
+   left:0;
+   height:60px;
+   /*background-color:#8abfe2;*/
+   border-bottom:6px black solid;
+   		border:6px purple dotted;
+}
+header{
+	font-size:60px;
+   width:1000px;
+   margin:0 auto;
+   position:relative;
+		border-top:6px green solid;
+	    border-bottom:6px green solid;
+}
+nav{
+  width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px; 
+  color:#4a88b0;
+  font-size:20px;
+		border-top:6px orange solid;
+	    border-bottom:6px orange solid;
+}
+nav:hover{
+  cursor:default;
+ }
+ul{
+   padding:0;
+}
+nav li{
+   list-style:none;
+   display:inline-block;
+   padding:4px 70px;
+   text-align:center;
+}
+a{
+   text-decoration:none;
+   color:orange;
+   font-size:20px;
+}
+a:hover{
+   color:#4a88b0;
+}
+#contenido{
+   width:980px;
+   margin:0 auto;
+   		border:6px red dotted;
+}
+section{
+
+	position:relative;
+	display:inline-block;
+	margin-bottom:45px;
+	font-size:12px;
+ 		border-top:6px blue solid;
+	    border-bottom:6px blue solid;
+}
+#titulo {
+   		border:6px purple dotted;	
+}
+
+.cuadros{
+   float:left;
+   width:230px;
+   border:1px lightgray solid;
+   border-radius:3px;
+   background-color:white;
+   text-align:center;
+   padding:5px 5px 22px 5px;
+   box-shadow:0px 0px 4px gray;
+   		border:6px green solid;  
+}
+#imagen1 {
+   		border:6px blue dashed;	
+}
+#imagen2 {
+   		border:6px blue dashed;	
+}
+#imagen3 {
+   		border:6px blue dashed;	
+}
+#cuadro2{
+   margin:0 112px 0 112px;
+}
+#chincheta{
+   position:absolute;
+   left:225px;
+   top:-40px;
+   		border:6px red dotted;	   
+}
+#franja_final{
+   width:100%;
+   position:absolute;
+   left:0;
+   /*bottom:0; Si no pongo esto, la franja no se va al fondo de la pantalla*/
+   /*background-color:#313B44;*/
+   height:60px;
+   border-top:6px black solid;
+   		border:6px purple dotted;
+} 
+footer{
+   width:1000px;
+   margin:0 auto;
+   position:relative;
+   padding-top:12px;
+  /*clear: both;*/
+  font-size:18px;
+  color:red;
+ 		border-top:6px purple solid;
+	    border-bottom:6px purple solid;
+}
